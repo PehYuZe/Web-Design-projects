@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Todo List</title>
+        <link rel="stylesheet" href="Css-styles/12-Todo-List-css.css">
+    </head>
+
+    <body>
+        <p>Todo List 1</p>
+        <input placeholder="Task" class="task_1-js">
+        <button onclick="
+            add_1();
+            displayList_1();
+        ">Add</button>
+        <button onclick="
+            resetList_1();
+        ">Reset List</button>
+
+        <p>Todo List 2</p>
+        <input placeholder="Task" class="task_2-js">
+        <button onclick="
+            add_2();
+            displayList_2();
+        ">Add</button>
+        <button onclick="
+            resetList_2();
+        ">Reset List</button>
+        <div class = 'displayList-js'></div>
+
+        <p class="title-css">Todo List 3</p>
+        <input placeholder="Task" class="task_3-js task_3-css">
+        <input type="date" class="date_3-js date_3-css">
+        <button class="add_button-css" onclick="
+            add_3();
+            displayList_3();
+        ">Add</button>
+        <button class="reset_button-css" onclick="
+            resetList_3();
+        ">Reset List</button>
+        <div class = 'displayList_3-js'></div>
+        <script src="Js-scripts/12-Todo-list-script.js"></script>
+    </body>
+
+
+</html>
