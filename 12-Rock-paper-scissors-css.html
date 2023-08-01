@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Rock Paper Scissors</title>
+
+        <link rel = "stylesheet" href = "Css-styles/12-Rock-paper-scissors-css.css">
+    </head>
+
+    <body>
+    <p class = 'Title'> Rock Paper Scissors</p>
+    <button class = "Move-button-css" onclick="
+        updateScore(result('rock', pickCompChoice()));
+        console.log(score);
+    "><img src = "Images/rock-emoji.png" class = "move-icon"></button>
+
+    <button class = "Move-button-css" onclick="
+        updateScore(result('paper', pickCompChoice()));
+        console.log(score);
+    "><img src = "Images/paper-emoji.png" class = "move-icon"></button>
+
+    <button class = "Move-button-css" onclick="
+        updateScore(result('scissors', pickCompChoice()));
+        console.log(score);
+    "><img src = "Images/scissors-emoji.png" class = "move-icon"></button>
+
+    <p class = "result-js result-css">Play the game!!</p>
+
+    <p class = "display-result-js display-result-css"></p>
+
+    <p class = "score-js"></p>
+
+    <button class = "reset-button-css" onclick = "resetScore();">Reset Score</button>
+    <button class = "autoplay-button-css autoplay-button-js" onclick = "
+        startAutoplay();
+        autoplay();
+    ">Auto Play</button>
+    <script src = "Js-scripts/12-Rock-paper-scissors-css.js" ></script>
+
+    </body>
+
+</html>

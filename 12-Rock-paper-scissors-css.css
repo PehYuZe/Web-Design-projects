@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(25,25,25);
+    color: white;
+
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.Title {
+    font-size: 30px;
+}
+
+.move-icon {
+    height: 50px;
+}
+
+.Move-button-css {
+    cursor: pointer;
+    border: 3px solid white;
+    background-color: brown;
+    border-radius: 50px;
+
+    width: 100px;
+    height: 100px;
+
+    margin-right: 10px;
+}
+
+.result-css {
+    font-size: 20px;
+}
+
+.reset-button-css {
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.autoplay-button-css {
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
